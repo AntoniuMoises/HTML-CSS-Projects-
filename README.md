@@ -1,6 +1,6 @@
 # HTML-CSS-Projects-
-A collection of webpages made with HTML &amp; CSS to learn basic web development skills.
-My main objective is to use these webpages as playground to learn, practice and improve HTMl/CSS and JS skills.
+ A collection of webpages made with HTML & CSS to learn basic web development skills. <br>
+ My main objective is to use these webpages as a playground to learn, practice and improve HTML/CSS and JS skills.<br>
 
-   -Livram Acasa project is the only webpage where I have used JS. The aim here was to learn data structure, module pattern design and OOP basics. <br>
-   -Beside the above mentioned project, all the other projects were build solely with HTML &amp; CSS. The intention was to learn and handle well all the fundamentals of HTML and CSS.
+-Livram Acasa project is the only webpage where I have used JS. The aim here was to learn data structure, module pattern design and OOP basics.<br>
+-Besides the above-mentioned project, all the other projects were built solely with HTML & CSS. The intention was to learn and handle well all the fundamentals of HTML and CSS.
