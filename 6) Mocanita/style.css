@@ -1,0 +1,669 @@
+/*General setting*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+
+/*********************** Top Menu ********************************/
+nav{
+    background-color: #4B4A4F;
+    height: 170px;
+}
+
+.nav-top{
+    margin: 0 40px;
+}
+.logo-top{
+    height: 80px;
+    width: 80px;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+}
+.logo-top img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.burger-nav{
+    width: 100%;
+    height: 30px;
+    margin:5px 0 20px 0;
+    position: relative;
+}
+.burger-nav p{
+    background-color: #47464B;
+    color:#fff;
+    cursor: default;
+    font-size: 90%;
+    padding: 3px 5px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.burger-nav div{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top:3px;
+}
+
+.menu-icon{
+    color: #6F8A53;
+    font-size: 130%;
+}
+.hidden-top-bar{
+    display: none;
+}
+
+
+/*********************** Header ********************************/
+header{
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.20);
+    color:#fff;
+    font-size: 230%;
+    margin: 0 auto;
+    padding: 190px 0;
+    width: 80%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/****   Social Media Icons   ****/
+.social-icons ul{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a{
+    color:#fff;
+    font-size: 100%;
+    position: relative;
+    top:6px;
+    left:8px;
+}
+.social-icons li{
+    border-radius: 50%;
+    cursor: pointer;
+    list-style-type: none;
+    margin:5px;
+    height: 33px;
+    width: 33px;
+}
+
+.icons:hover >a{
+    color:#e8e8e8;
+}
+
+.icons-f{
+    background-color: #3B5998;
+}
+.icons-i{
+    background-color: #517FA4;
+}
+.icons-y{
+    background-color: #A82400;
+}
+.icons-tw{
+    background-color: #00ACED;
+}
+
+/********************* Main Section **********************/
+
+main{
+    height: auto;
+}
+
+.margin{
+     margin: 0 10%;
+}
+
+/* 1.  Info text*/
+.info-text{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.info-text a{
+    color: #97AB83;
+    text-decoration: none;
+}
+
+.info-text a:hover{
+    color: #8fdb43;
+}
+
+h2{
+    color:#4B4A4F;
+    font-size:180%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/* 2. Programs box*/
+.each-program{
+    display: flex;
+    flex-direction: column;
+}
+.program-img{
+    margin: 50px 0 0 0;
+}
+
+.img-center{
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+h3{
+    color:#4B4A4F;
+    font-size:130%;
+    text-align: center;
+    padding: 10px 0 5px 0;
+}
+.each-program:last-child{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    text-align: center;
+}
+
+.no-pad{
+    padding: 0;
+    margin: 0;
+}
+
+.buy-btn{
+    cursor: pointer;
+    padding: 10px 30px 10px 30px;
+    margin:10px auto 40px auto;
+    width: 150px;
+    transition: all 0.3s;
+}
+
+.btn-green{
+    border:2px solid #708B54;
+    display: flex; 
+    transition: all 0.5s;
+    position: relative;
+    white-space: nowrap;
+}
+
+.btn-green a{
+    color:#708B54;
+    transition: all 0.3s;
+}
+
+.buy-btn a{
+    font-size: 110%;
+    text-decoration: none;   
+    transition: all 0.3s;
+    margin: 0 auto;
+}
+
+.buy-btn:hover{
+    background-color: #708B54;
+   transition: all 0.3s;  
+}
+.buy-btn:hover >a{
+     color:#fff;
+    padding-left: 10px;
+    
+   
+}
+/**************** 3. Reservation section ***************/
+
+.reservation{
+    background-color: #EFEFEF;
+    height: auto;
+    line-height: 1.5;
+    padding:0 10px 15px 10px;
+    margin: 40px 0;
+  
+}
+.reservation a{
+    color:#708B54;
+    text-decoration: none;
+}
+
+.reservation a:hover{
+    color:#82bc46;
+    text-decoration: underline;
+}
+.border{
+    border-bottom: 1px dotted #000;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+}
+
+.contact{
+    font-size: 125%;
+}
+
+.phone,
+.mail{
+    padding: 0;
+    margin: 0;
+}
+.position{
+    padding:0 0 0 25px;
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top:2px;
+    left: 0;
+}
+
+/**************** Trains section ***************/
+.trains{
+    display: flex;
+    flex-direction: column;
+}
+.each-train{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px auto;
+    height: 250px;
+    width: 100%;
+}
+
+.train-img img{
+    display: block;
+    margin: 0 auto;
+    max-height: 50%;
+    max-width: 50%;
+}
+
+/**************** Ticketssection ***************/
+.buy-tickets{
+    background-image: url('images/tickets.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 320px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.buy-tickets h3{
+    color:#fff;
+    font-size:200%;
+    text-transform: uppercase;
+    padding: 70px 0 10px 0;
+    margin: 0;
+}
+
+.buy-tickets p{
+    color:#fff;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    width: 80%;
+    text-align: center;
+}
+
+.btn-white{
+    border:2px solid #fff;
+    display: flex; 
+    transition: all 0.3s;
+    position: relative;
+    
+}
+.btn-white a{
+    color:#fff;  
+    margin: 0 auto;
+}
+
+
+.buy-icon{
+    visibility: hidden;
+    font-size: 150%;
+    position: absolute;
+    top:8px;
+    right: 5px;
+    transition: all 0.2s;
+}
+
+.btn-white:hover{
+    background-color: rgba(255,255,255,0.2);
+    width: 180px;
+    padding-left: 10px;
+}
+
+.btn-white:hover .buy-icon{
+    color:#fff;
+    visibility: visible;
+}
+
+
+
+/**************** History section ***************/
+.history{
+    display: grid;   
+}
+.each-history{
+    margin: 40px 0;
+}
+
+.each-history p{
+    padding: 0;
+    margin: 2px auto 20px auto;
+}
+.each-history h3{
+    margin: 0;
+    padding: 5px 0 10px 0;
+}
+.btn-history{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.btn-history:hover{
+    width: 180px;
+}
+
+.btn-history:hover .buy-icon{
+    color:#fff;
+    visibility: visible;
+}
+
+
+/**************** forestry section ***************/
+.last-train{
+    background-image: url('images/last-train.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.last-train h3{
+    font-size: 140%;
+}
+
+.background-train{
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.25);
+    padding: 1px;
+}
+
+
+
+/**************** Galery section & description trains section ***************/
+
+.each-photo{
+    margin: 20px 0;
+}
+
+.locomotives{
+    height: 400px;
+}
+.trains-photo{
+    margin: 20px 0;
+    
+}
+.trains-photo img{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/**************** Footer ***************/
+footer{
+    background-color: #4B4A4F;
+    height: auto;
+    padding: 10px 0 0 0;
+}
+
+.wrapper-col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;  
+ }
+
+.col-footer{
+        max-width: 240px;
+        flex-grow: 1;
+        padding: 35px 0;
+        margin-right: 40px;    
+}
+
+h4{
+    color:#fff;
+    letter-spacing: 1.3px;
+    padding: 0;
+    margin: 0;  
+}
+
+.col-footer p{
+    font-size:90%;
+    color:#fff;
+    padding: 10px 0;
+    margin: 0;
+}
+.col-footer a{
+    color:#DADA26;
+    text-decoration: none;
+}
+
+.terms{
+    color:#fff;
+    font-size:80%;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.icons-footer{
+    background-color: #333236;
+    padding: 10px 0;
+}
+.icons-footer li{
+    margin: 3px 10px;
+}
+
+/*********** II. MEDIA QUERY *******************/
+
+@media screen and (min-width:48em){
+    
+    .wrapper-col{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;  
+   }
+    
+}
+
+@media screen and (min-width:62em){
+   
+    
+    /*Top-nav*/
+    .burger-nav{
+        display: none;
+    }
+    .hidden-top-bar{
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    
+    .hidden-top-bar li{
+        padding: 2px 5px;
+        list-style-type: none;
+        white-space: nowrap;
+    }
+    
+    .hidden-top-bar a{
+        color:#fff;
+        font-size: 95%;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .hidden-top-bar a:hover{
+        color:#cecece;
+    }
+    
+    .flags{
+        cursor: pointer;
+        display: inline-block;
+        max-width: 80%;
+        max-height: 55%;
+        padding: 0 3px;
+    }
+    .arrow-down{
+        position: relative;
+        top:3px;
+    }
+    
+    
+    .hover-down-valea{
+        position: relative;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    .menu-valea{
+        display: none;
+        background-color: #4B4A4F;
+        padding: 20px 10px 0 10px;
+        min-width: 150px;
+        position: absolute;
+        top:25px;
+        z-index: 1;
+    }
+    
+    .menu-valea li{
+        display: block;
+        color:#fff;
+        cursor: pointer;
+        padding: 7px 0;
+    }
+    
+    .hover-down-valea:hover .menu-valea{
+        display: block;
+    }
+    
+    .menu-valea li:hover{
+        color:#cecece;  
+    }
+    
+    .programs{
+        display: grid;
+        font-size: 95%;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20px;
+    }
+    
+    .programs h3{
+        height: 100px;
+        padding-bottom: 20px;
+    }
+    
+    .text-block{
+       min-height: 450px;
+    }
+    
+    .hide-btn{
+        display: none;
+    }
+    
+    .trains{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 10px;
+    }
+
+    .train-img img{
+        display: block;
+        max-height: 80%;
+        max-width: 90%; 
+    }
+    
+    .history{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 20px;
+    }
+    
+    .each-history p{
+        min-height: 250px;
+    }
+    .galery{
+        display: none;
+    }
+    
+    .description-box{
+        display: flex;
+        flex-grow: 4;
+        flex-wrap: wrap;
+    }
+    
+    .description-box p{
+        flex-basis: 250px;
+        margin-right: 50px;
+    }
+    
+    .description-trains{
+        grid-column: 2/4;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 5px;
+    }
+    
+    .reservation{
+        padding: 5px 20px;
+    }
+   
+    
+}
+
+@media screen and (min-width:70em){
+    
+    .hidden-top-bar{
+        width: 960px;
+    }
+    
+    .width{
+        margin: 0 auto;
+        width: 960px;
+    }
+    
+    .buy-tickets{
+        height: 500px;
+    }
+    
+    .buy-tickets p{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .last-train{
+        height: 500px;
+    }
+    
+}
