@@ -7,7 +7,7 @@
 <br>
 You can see each page using the links from list below:<br>
 <ul>
- <li> <a href='https://antoniumoises.github.io/restaurant-livram-acasa/' target='_blank'> Restaurant Livram Acasa </a> </li>
+ <li> <a href='https://antoniumoises.github.io/livram-acasa-restaurant/' target='_blank'> Restaurant Livram Acasa </a> </li>
  <li> <a href='https://antoniumoises.github.io/copy-washington-post/' target='_blank'> Copied Page of Washington Post </a> </li>
  <li> <a href='https://antoniumoises.github.io/copy-nomadic-travel/' target='_blank'>Copied Page of Blog Travel- Nomadic Matt  </a> </li>
  <li> <a href='https://antoniumoises.github.io/copied-guru-walk/' target='_blank'> Copied Page of Blog Travel- Guru Walk   </a></li>
